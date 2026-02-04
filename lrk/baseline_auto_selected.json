@@ -1,5 +1,0 @@
-{
-  "encryption_type": "aes-gcm",
-  "compress_method": "bz2",
-  "hash_mode": "hash"
-}
