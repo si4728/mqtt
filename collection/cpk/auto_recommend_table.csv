@@ -1,0 +1,4 @@
+﻿Scenario,environment,pub_ping,data_size_pub,best_encryption_type,best_compress_method,best_hash_mode
+S01,cpk,0.301345,512.0,none,none,none
+S02,cpk,0.301345,9024.0,chacha20-poly1305,zlib,none
+S03,cpk,0.301345,65536.0,aes-gcm,bz2,none

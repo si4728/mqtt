@@ -1,0 +1,5 @@
+﻿baseline,requested_encryption,requested_compress,requested_hash,used_encryption,used_compress,used_hash,mismatch_count
+BL-1,none,none,none,none,none,none,0
+BL-2,none,none,hash,none,none,hash,0
+BL-3,none,gzip,hash,none,gzip,hash,0
+BL-auto,aes-gcm,bz2,hash,aes-gcm,bz2,hash,0

@@ -1,0 +1,4 @@
+﻿pub_ping,environment,512.0,2048.0,9024.0,16384.0,65536.0
+0.005311,lpk,aes-gcm|zlib|none,none|gzip|none,chacha20-poly1305|gzip|none,chacha20-poly1305|gzip|none,aes-gcm|bz2|none
+0.08018,lpk,aes-gcm|gzip|hash,none|gzip|hash,none|bz2|hash,none|bz2|none,chacha20-poly1305|bz2|hash
+0.159063,lpk,aes-gcm|zlib|none,none|bz2|hash,none|zlib|none,none|gzip|none,chacha20-poly1305|gzip|hash

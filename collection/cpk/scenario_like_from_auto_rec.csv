@@ -1,0 +1,4 @@
+﻿Scenario,environment,pub_ping,data_size_pub,baseline_id,encryption_type,compress_method,hash_mode,notes
+S01,cpk,0.301345,512.0,AUTO-REC,none,none,none,
+S02,cpk,0.301345,9024.0,AUTO-REC,chacha20-poly1305,zlib,none,
+S03,cpk,0.301345,65536.0,AUTO-REC,aes-gcm,bz2,none,

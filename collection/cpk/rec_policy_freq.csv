@@ -1,0 +1,4 @@
+﻿policy,count,ratio
+aes-gcm|bz2|none,1,0.3333333333333333
+chacha20-poly1305|zlib|none,1,0.3333333333333333
+none|none|none,1,0.3333333333333333

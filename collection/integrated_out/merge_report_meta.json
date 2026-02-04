@@ -1,0 +1,28 @@
+{
+  "root": "C:\\access\\mzip\\collection",
+  "out": "C:\\access\\mzip\\collection\\integrated_out",
+  "baseline_focus": "BL-auto",
+  "env_map": {
+    "crk": "lrk"
+  },
+  "used_envs": [
+    "cpk",
+    "lpk",
+    "lrk"
+  ],
+  "files_expected": [
+    "paper_table_summary.csv",
+    "eval_scenarios_all.csv"
+  ],
+  "outputs": [
+    "paper_table_summary_ALL_ENVS.csv",
+    "eval_scenarios_all_ALL_ENVS.csv",
+    "Table_ENVxPAYLOAD_BL-auto.csv",
+    "Table_ENVxPINGBINxPAYLOAD_BL-auto.csv"
+  ],
+  "ping_bins": {
+    "LOW": "<=50ms",
+    "MID": "50-150ms",
+    "HIGH": ">=150ms"
+  }
+}

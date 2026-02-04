@@ -1,0 +1,4 @@
+﻿Scenario,environment,pub_ping,data_size_pub,ping_snap,size_snap,baseline,manual_encryption,manual_compress,manual_hash,rec_encryption,rec_compress,rec_hash,T_rec,T_manual,improvement_pct,sla_violate_manual,sla_violate_rec
+S01,cpk,0.301345,512.0,0.301345,512.0,BL-3,none,gzip,hash,none,none,none,0.2744565464090556,1.113172359764576,75.34464955030862,True,True
+S02,cpk,0.301345,9024.0,0.301345,9024.0,BL-3,none,gzip,hash,chacha20-poly1305,zlib,none,0.2708267045672983,0.3102903636172414,12.718299914277544,True,True
+S03,cpk,0.301345,65536.0,0.301345,65536.0,BL-3,none,gzip,hash,aes-gcm,bz2,none,1.376939730718732,2.7445916349533945,49.8307976610111,True,True

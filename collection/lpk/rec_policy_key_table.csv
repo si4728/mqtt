@@ -1,0 +1,16 @@
+﻿Scenario,environment,pub_ping,data_size_pub,policy,best_encryption_type,best_compress_method,best_hash_mode
+S01,lpk,0.005311,512.0,aes-gcm|zlib|none,aes-gcm,zlib,none
+S02,lpk,0.005311,2048.0,none|gzip|none,none,gzip,none
+S03,lpk,0.005311,9024.0,chacha20-poly1305|gzip|none,chacha20-poly1305,gzip,none
+S04,lpk,0.005311,16384.0,chacha20-poly1305|gzip|none,chacha20-poly1305,gzip,none
+S05,lpk,0.005311,65536.0,aes-gcm|bz2|none,aes-gcm,bz2,none
+S06,lpk,0.08018,512.0,aes-gcm|gzip|hash,aes-gcm,gzip,hash
+S07,lpk,0.08018,2048.0,none|gzip|hash,none,gzip,hash
+S08,lpk,0.08018,9024.0,none|bz2|hash,none,bz2,hash
+S09,lpk,0.08018,16384.0,none|bz2|none,none,bz2,none
+S10,lpk,0.08018,65536.0,chacha20-poly1305|bz2|hash,chacha20-poly1305,bz2,hash
+S11,lpk,0.159063,512.0,aes-gcm|zlib|none,aes-gcm,zlib,none
+S12,lpk,0.159063,2048.0,none|bz2|hash,none,bz2,hash
+S13,lpk,0.159063,9024.0,none|zlib|none,none,zlib,none
+S14,lpk,0.159063,16384.0,none|gzip|none,none,gzip,none
+S15,lpk,0.159063,65536.0,chacha20-poly1305|gzip|hash,chacha20-poly1305,gzip,hash
